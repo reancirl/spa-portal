@@ -1,0 +1,10 @@
+.dt-tabs {
+  > .v-window.v-item-group.theme--light.v-tabs-items,
+  > .v-window.v-item-group.theme--dark.v-tabs-items {
+    background-color: transparent;
+  }
+}
+
+.v-tab-item {
+  background: transparent !important;
+}

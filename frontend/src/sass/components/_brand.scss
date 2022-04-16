@@ -1,0 +1,18 @@
+.dt-brand-preview {
+  background-size: cover;
+  display: inline-block;
+  height: 160px;
+  min-height: 100px;
+  min-width: 100px;
+  width: 160px;
+  background: var(--workspace);
+  border-radius: 50%;
+}
+
+.theme--light {
+  .dt-brand-preview {
+    img {
+      object-fit: cover;
+    }
+  }
+}

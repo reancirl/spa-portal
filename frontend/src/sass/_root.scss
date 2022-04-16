@@ -1,0 +1,97 @@
+$light: 'light';
+$dark: 'dark';
+
+:root {
+  // Body
+  --body-bg: #{$body-bg};
+  --body-color: #{$body-color};
+
+  // Breadcrumbs
+  --breadcrumbs-padding: #{$breadcrumbs-padding};
+
+  // Global
+  --box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --dt-box-shadow: 0 8px 40px -5px rgba(0, 0, 0, 0.09);
+
+  // Button
+  --button-border-color: #{$button-border-color};
+
+  // Border
+  --btn-divider: #{$btn-divider};
+
+  // Border Radius
+  --global-radius: #{$global-radius};
+
+  // Card
+  --card-border-radius: 8px;
+  --card-border-color: #{$card-border-color};
+  --card-border-color-dark: #{$card-border-color-dark};
+  --card-border-width: 1px;
+  --card-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05), 0 0 0 0 rgba(0, 0, 0, 0.1), 0 0 0 0 rgba(0, 0, 0, 0.1);
+  --card-box-shadow-hover: 0 5px 20px 0 rgba(0, 0, 0, 0.05);
+
+  // Color
+  --textx: #{map-deep-get($colors, $light, text)};
+  --text: #{map-deep-get($colors, $light, text)};
+  --text-muted: #{map-deep-get($colors, $light, muted)};
+  --muted: #{map-deep-get($colors, $light, muted)};
+  --white: #{map-deep-get($colors, $light, purewhite)};
+  --link: #{map-deep-get($colors, $light, link)};
+  --field-light: #{map-deep-get($colors, $light, field)};
+  --field: #{map-deep-get($colors, $light, field)};
+  --separator: #{map-deep-get($colors, $light, separator)};
+  --section: #{map-deep-get($colors, $light, section)};
+  --selects: #{map-deep-get($colors, $light, selects)};
+  --workspace: #{map-deep-get($colors, $light, workspace)};
+  --success: #{map-deep-get($colors, $light, success)};
+
+  // Font
+  --font-family-base: #{$font-family-base};
+  --font-family-monospace: #{$font-family-monospace};
+  --font-family-primary: #{$font-family-base};
+  --font-family-sans-serif: #{$font-family-sans-serif};
+  --font-size-base: #{$font-size-base};
+  --font-size-sm: #{$font-size-sm};
+  --font-base: #{$font-base};
+
+  // Field
+  --field-border-color: #{$field-border-color};
+
+  // Sidebar
+  --sidebar-bg-dark: #{$sidebar-bg-dark};
+  --sidebar-border: #{$sidebar-border};
+
+  // Toolbar
+  --toolbar-bg-dark: #{$toolbar-bg-dark};
+
+  // Workspace
+  --bar: #{map-deep-get($colors, $light, bar)};
+  --workspace-bg: #{map-deep-get($colors, $light, workspace)};
+  --workspace-bg-dark: #{$workspace-dark};
+
+  // Theme
+  --primary: #{map-deep-get($colors, $light, primary)};
+  --secondary: #{map-deep-get($colors, $light, secondary)};
+  --dark: #{map-deep-get($colors, $light, dark)};
+  --light: #{map-deep-get($colors, $light, light)};
+
+  // Contextual Color
+  --error: #{map-deep-get($colors, $light, error)};
+  --success: #{map-deep-get($colors, $light, success)};
+  --info: #{map-deep-get($colors, $light, info)};
+  --warning: #{map-deep-get($colors, $light, warning)};
+  --accent: #{map-deep-get($colors, $light, accent)};
+
+  // Contextual Background Color
+  --soft-error: #{map-deep-get($colors, $light, soft-error)};
+  --soft-success: #{map-deep-get($colors, $light, soft-success)};
+  --soft-info: #{map-deep-get($colors, $light, soft-info)};
+  --soft-warning: #{map-deep-get($colors, $light, soft-warning)};
+
+  // Spacing
+  --padding-base: #{$padding-base};
+  --margin-base: #{$margin-base};
+
+  // Height
+  --full-height: #{$full-height};
+}

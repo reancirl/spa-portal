@@ -1,0 +1,48 @@
+{
+  "name": "Theme",
+  "code": "theme",
+  "description": "A theme for Web Applications using Vue and Vuetify",
+  "preview": {
+    "credit": ""
+  },
+  "spa": true,
+  "author": {
+  "name": "Princess Ellen Alto"
+  },
+  "colors": {
+    "light": {
+      "primary": "#0253cc",
+      "secondary": "#e56e37",
+      "accent": "#f39e2b",
+      "success": "#009688",
+      "info": "#00b8d6",
+      "warning": "#F6C343",
+      "error": "#f44336",
+      "light": "#f8f9fa",
+      "dark": "#152e4d",
+      "text": "#12263f",
+      "card": "#ffffff",
+      "sidebar": "#ffffff",
+      "bar": "#f9fbfd",
+      "workspace": "#f4f5f8",
+      "muted": "#95aac9",
+      "link": "#868e96",
+      "soft-success": "#ccf7e5",
+      "soft-error": "#fad7dd",
+      "soft-info": "#d7eff6",
+      "soft-warning": "#fdf3d9",
+      "selects": "#edf2f9",
+      "field": "#d2ddec",
+      "sheet": "#ffffff",
+      "theme": "#ffffff",
+      "section": "#eef3f7",
+      "separator": "#dee2e6",
+      "purewhite": "#ffffff"
+    },
+    "dark": {
+      "primary": "#2c7be5",
+      "secondary": "#e56e37",
+      "accent": "#f39e2b"
+    }
+  }
+}

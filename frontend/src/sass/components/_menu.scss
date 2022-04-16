@@ -1,0 +1,7 @@
+.v-menu__content {
+  border-radius: var(--global-radius);
+
+  &.theme--light.menuable__content__active {
+    background: var(--white);
+  }
+}
